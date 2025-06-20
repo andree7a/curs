@@ -1,0 +1,8 @@
+# Exercițiul 1: Creați o funcție care calculează aria unui dreptunghi
+# Funcția să primească două parametri: lungime și lățime
+# Ambii parametri să aibă valori default de 1
+def calculeaza_aria_dreptunghiului(lungime=1, latime=1):
+    return lungime * latime
+print(calculeaza_aria_dreptunghiului())         
+print(calculeaza_aria_dreptunghiului(5))          
+print(calculeaza_aria_dreptunghiului(5, 3))  
